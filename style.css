@@ -10,12 +10,42 @@ h1 {
 	font-family: "Comic Relief", system-ui;
 }
 
+img {
+	width: 40px;
+	height: 40px;
+}
+
 body {
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
 }
 
 header {
-	width: 100%;
-	padding: 24px;
+	padding: 18px;
+	background-color: #6df2ff;
+}
+
+menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 18px;
 	background-color: #05abbb;
 }
