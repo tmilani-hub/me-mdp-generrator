@@ -1,282 +1,202 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<title>MDP Generator</title>
-	</head>
 
-	<body>
-		<audio id="btnsound" src="/asset/sound/soundbtn.wav"></audio>
-		<audio id="asound" src="/asset/sound/asound.wav"></audio>
-		<audio id="secret" src="/asset/sound/secretsound.wav"></audio>
-		<header>
-			<menu>
-				<nav>
-					<a href="https://www.youtube.com/@enrevoir15">my chanel</a>
-					<a href="me_discord.html">my discord</a>
-					<a href="https://github.com/repos">another project</a>
-				</nav>
-				<hr />
-				<nav id="spe">
-					<a href="#ContainerSetting">change settings</a>
-					<a href="#changeColorWeb">change color web</a>
-				</nav>
-				<img src="/asset/img/wtf.png" />
-			</menu>
-			<svg
-				class="abso pluie"
-				xmlns="http://www.w3.org/2000/svg"
-				id="Layer_pluie"
-				data-name="Layer 1"
-				viewBox="0 0 24 24"
-				width="50"
-				height="50"
-			>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>MDP Generator</title>
+</head>
+
+<body>
+	<audio id="btnsound" src="/asset/sound/soundbtn.wav"></audio>
+	<audio id="asound" src="/asset/sound/asound.wav"></audio>
+	<audio id="secret" src="/asset/sound/secretsound.wav"></audio>
+	<header>
+		<menu>
+			<nav>
+				<a href="https://www.youtube.com/@enrevoir15">my channel</a>
+				<a href="me_discord.html">my discord</a>
+				<a href="https://github.com/repos">another project</a>
+			</nav>
+			<hr />
+			<nav id="spe">
+				<a href="#ContainerSetting">change settings</a>
+				<a href="#changeColorWeb">change color web</a>
+			</nav>
+			<img src="/asset/img/wtf.png" />
+		</menu>
+		<svg class="abso pluie" xmlns="http://www.w3.org/2000/svg" id="Layer_pluie" data-name="Layer 1"
+			viewBox="0 0 24 24" width="50" height="50">
+			<path
+				d="M14,24a5.952,5.952,0,0,1-4.242-1.758,6.025,6.025,0,0,1,0-8.484L14,9.261l4.263,4.517a6.029,6.029,0,0,1-.021,8.464h0A5.952,5.952,0,0,1,14,24ZM5,12a4.968,4.968,0,0,1-3.535-1.465,5.022,5.022,0,0,1,0-7.07L5,.007l3.527,3.45a5.02,5.02,0,0,1,.008,7.078A4.965,4.965,0,0,1,5,12Zm15-2a3.973,3.973,0,0,1-2.828-1.172,4.017,4.017,0,0,1,0-5.656L19.982.049,22.86,3.205a4.02,4.02,0,0,1-.032,5.623h0A3.973,3.973,0,0,1,20,10Z" />
+		</svg>
+	</header>
+	<main>
+		<section id="ContainerGeneratePasseword">
+			<h1 id="PassVue">Click here to copy Password</h1>
+			<button type="button" id="genePass" class="glass-effect">
+				Generate
+			</button>
+			<svg class="abso etoile1" xmlns="http://www.w3.org/2000/svg" id="Layer_etoile" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
 				<path
-					d="M14,24a5.952,5.952,0,0,1-4.242-1.758,6.025,6.025,0,0,1,0-8.484L14,9.261l4.263,4.517a6.029,6.029,0,0,1-.021,8.464h0A5.952,5.952,0,0,1,14,24ZM5,12a4.968,4.968,0,0,1-3.535-1.465,5.022,5.022,0,0,1,0-7.07L5,.007l3.527,3.45a5.02,5.02,0,0,1,.008,7.078A4.965,4.965,0,0,1,5,12Zm15-2a3.973,3.973,0,0,1-2.828-1.172,4.017,4.017,0,0,1,0-5.656L19.982.049,22.86,3.205a4.02,4.02,0,0,1-.032,5.623h0A3.973,3.973,0,0,1,20,10Z"
-				/>
+					d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" />
 			</svg>
-		</header>
-		<main>
-			<section id="ContainerGeneratePasseword">
-				<h1 id="PassVue">there is the ********</h1>
-				<button type="button" id="genePass" class="glass-effect">
-					Generate
-				</button>
-				<svg
-					class="abso etoile1"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_etoile"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z"
-					/>
-				</svg>
-				<svg
-					class="abso etoile etoile2"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_etoile"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z"
-					/>
-				</svg>
-			</section>
-			<section id="ContainerSetting">
-				<h2>Change password creation settings</h2>
-				<form id="PassPara">
-					<label for="lenghtPassword">password lenght </label>
-					<input
-						class="intNum"
-						max="100"
-						min="0"
-						value="10"
-						placeholder="max 100"
-						type="number"
-						name="lenghtPassword"
-					/>
-					<div class="orgonize">
-						<label for="onlyAlphabet"
-							>only Alphabet
-							<input
-								class="intRad"
-								checked
-								id="onlyAlphabet"
-								type="radio"
-								name="typeOfPasswordCaracter"
-							/>
-						</label>
-						<label for="onlyNumber"
-							>only Number
-							<input
-								class="intRad"
-								id="onlyNumber"
-								type="radio"
-								name="typeOfPasswordCaracter"
-							/>
-						</label>
-						<label for="onlySpecialCaracter"
-							>only SpecialCaracter
-							<input
-								class="intRad"
-								id="onlySpecialCaracter"
-								type="radio"
-								name="typeOfPasswordCaracter"
-							/>
-						</label>
-						<label for="alphabetPlusNumber"
-							>alphabet Plus Number
-							<input
-								class="intRad"
-								id="alphabetPlusNumber"
-								type="radio"
-								name="typeOfPasswordCaracter"
-							/>
-						</label>
-						<label for="ALLcaracter"
-							>ALL caracter
-							<input
-								class="intRad"
-								id="ALLcaracter"
-								type="radio"
-								name="typeOfPasswordCaracter"
-							/>
-						</label>
-					</div>
-					<button type="submit">save modification</button>
-				</form>
-				<svg
-					class="abso coeur1"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_coeur"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z"
-					/>
-				</svg>
-				<svg
-					class="abso coeur2"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_coeur"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z"
-					/>
-				</svg>
-				<svg
-					class="abso coeur3"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_coeur"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z"
-					/>
-				</svg>
-			</section>
-			<section id="changeColorWeb">
-				<h2>Change color of this horrible web site</h2>
-				<form action="">
-					<div class="orgonize1">
-						<label for="textColor">Text color</label>
-						<input class="intColr" type="color" name="textColor" />
+			<svg class="abso etoile etoile2" xmlns="http://www.w3.org/2000/svg" id="Layer_etoile" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" />
+			</svg>
+		</section>
+		<section id="ContainerSetting">
+			<h2>Change password creation settings</h2>
+			<form id="PassPara">
+				<label for="lenghtPassword">password lenght </label>
+				<input class="intNum" max="100" min="0" value="10" placeholder="max 100" type="number"
+					name="lenghtPassword" />
+				<div class="orgonize">
+					<label for="onlyAlphabet">only Alphabet
+						<input class="intRad" checked id="onlyAlphabet" type="radio" name="typeOfPasswordCaracter"
+							value="onlyAlphabet" />
+					</label>
+					<label for="onlyNumber">only Number
+						<input class="intRad" id="onlyNumber" type="radio" name="typeOfPasswordCaracter"
+							value="onlyNumber" />
+					</label>
+					<label for="onlySpecialCaracter">only SpecialCaracter
+						<input class="intRad" id="onlySpecialCaracter" type="radio" name="typeOfPasswordCaracter"
+							value="onlySpecialCaracter" />
+					</label>
+					<label for="alphabetPlusNumber">alphabet Plus Number
+						<input class="intRad" id="alphabetPlusNumber" type="radio" name="typeOfPasswordCaracter"
+							value="alphabetPlusNumber" />
+					</label>
+					<label for="ALLcaracter">ALL caracter
+						<input class="intRad" id="ALLcaracter" type="radio" name="typeOfPasswordCaracter"
+							value="ALLcaracter" />
+					</label>
+				</div>
+			</form>
+			<svg class="abso coeur1" xmlns="http://www.w3.org/2000/svg" id="Layer_coeur" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z" />
+			</svg>
+			<svg class="abso coeur2" xmlns="http://www.w3.org/2000/svg" id="Layer_coeur" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z" />
+			</svg>
+			<svg class="abso coeur3" xmlns="http://www.w3.org/2000/svg" id="Layer_coeur" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z" />
+			</svg>
+		</section>
+		<section id="changeColorWeb">
+			<h2>Change color of this horrible web site</h2>
+			<form id="changeWebColor">
+				<div class="orgonize1">
+					<label for="color-web-normalize">color-web-normalize</label>
+					<input class="intColr" type="color" name="color-web-normalize" value="#008793" />
 
-						<label for="WebColor">Sect Back Color</label>
-						<input class="intColr" type="color" name="WebColor" />
+					<label for="color-base-button">color-base-button</label>
+					<input class="intColr" type="color" name="color-base-button" value="#0000c5" />
 
-						<label for="boxShadow">BOX Shadow</label>
-						<input class="intColr" type="color" name="box Shadow color" />
+					<label for="color-base-button-hover">color-base-button-hover</label>
+					<input class="intColr" type="color" name="color-base-button-hover" value="#0028c5" />
 
-						<label for="btnPrimaryColor">BTN color</label>
-						<input class="intColr" type="color" name="btnPrimaryColor" />
+					<label for="color-base-button-active">color-base-button-active</label>
+					<input class="intColr" type="color" name="color-base-button-active" value="#ffffff" />
 
-						<label for="ALLbordure">ALL Border</label>
-						<input class="intColr" type="color" name="ALLbordure" />
-					</div>
-					<button type="submit">save modification</button>
-				</form>
-				<svg
-					class="abso patte1"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_patte"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z"
-					/>
-				</svg>
-				<svg
-					class="abso patte2"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_patte"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z"
-					/>
-				</svg>
-				<svg
-					class="abso patte3"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_patte"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z"
-					/>
-				</svg>
-				<svg
-					class="abso patte4"
-					xmlns="http://www.w3.org/2000/svg"
-					id="Layer_patte"
-					data-name="Layer 1"
-					viewBox="0 0 24 24"
-					width="50"
-					height="50"
-				>
-					<path
-						d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z"
-					/>
-				</svg>
-			</section>
-		</main>
-		<!--	coeur
+					<label for="border-color">border-color</label>
+					<input class="intColr" type="color" name="border-color" value="#434343" />
+
+					<label for="border-color-hover">border-color-hover</label>
+					<input class="intColr" type="color" name="border-color-hover" value="#131313" />
+
+					<label for="text-color">text-color</label>
+					<input class="intColr" type="color" name="text-color" value="#00f2ff" />
+
+					<label for="text-color-hover">text-color-hover</label>
+					<input class="intColr" type="color" name="text-color-hover" value="#a0faff" />
+
+					<label for="a-color">a-color</label>
+					<input class="intColr" type="color" name="a-color" value="#ff01ff" />
+
+					<label for="a-color-hover">a-color-hover</label>
+					<input class="intColr" type="color" name="a-color-hover" value="#ffbbff" />
+
+					<label for="box-shadow">box-shadow</label>
+					<input class="intColr" type="color" name="box-shadow" value="#4747ff" />
+
+					<label for="box-shadow-hover">box-shadow-hover</label>
+					<input class="intColr" type="color" name="box-shadow-hover" value="#ffffff" />
+
+					<label for="hr-color">hr-color</label>
+					<input class="intColr" type="color" name="hr-color" value="#00000096" />
+
+					<label for="secret">secret</label>
+					<input class="intColr" type="color" name="secret" value="#b8f9ff" />
+				</div>
+				<button type="submit">save modification</button>
+			</form>
+			<div class="justflex">
+				<button type="button" class="preset">color preset 1</button>
+				<button type="button" class="preset">color preset 2</button>
+				<button type="button" class="preset">color preset 3</button>
+			</div>
+			<svg class="abso patte1" xmlns="http://www.w3.org/2000/svg" id="Layer_patte" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z" />
+			</svg>
+			<svg class="abso patte2" xmlns="http://www.w3.org/2000/svg" id="Layer_patte" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z" />
+			</svg>
+			<svg class="abso patte3" xmlns="http://www.w3.org/2000/svg" id="Layer_patte" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z" />
+			</svg>
+			<svg class="abso patte4" xmlns="http://www.w3.org/2000/svg" id="Layer_patte" data-name="Layer 1"
+				viewBox="0 0 24 24" width="50" height="50">
+				<path
+					d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z" />
+			</svg>
+		</section>
+	</main>
+	<!--	coeur
 	<svg class="abso coeur" xmlns="http://www.w3.org/2000/svg" id="Layer_coeur" data-name="Layer 1" viewBox="0 0 24 24" width="50"
 		height="50">
 		<path
 			d="M17.5.917a6.4,6.4,0,0,0-5.5,3.3A6.4,6.4,0,0,0,6.5.917,6.8,6.8,0,0,0,0,7.967c0,6.775,10.956,14.6,11.422,14.932l.578.409.578-.409C13.044,22.569,24,14.742,24,7.967A6.8,6.8,0,0,0,17.5.917Z" />
 	</svg>
 	-->
-		<!--	etoile
+	<!--	etoile
 	<svg class="abso etoile" xmlns="http://www.w3.org/2000/svg" id="Layer_etoile" data-name="Layer 1" viewBox="0 0 24 24" width="50"
 		height="50">
 		<path d="M19.467,23.316,12,17.828,4.533,23.316,7.4,14.453-.063,9H9.151L12,.122,14.849,9h9.213L16.6,14.453Z" />
 	</svg>
 	-->
-		<!--	patte
+	<!--	patte
 	<svg class="abso patte" xmlns="http://www.w3.org/2000/svg" id="Layer_patte" data-name="Layer 1" viewBox="0 0 24 24" width="50"
 		height="50">
 		<path
 			d="M8.164,8a2.49,2.49,0,0,1-1.579-.594A4.832,4.832,0,0,1,5.028,4.145C4.785,1.651,6.145.181,7.614.017A2.651,2.651,0,0,1,9.6.611a4.177,4.177,0,0,1,1.376,2.9C11.2,5.834,9.962,8,8.164,8ZM2.853,14a2.118,2.118,0,0,1-1.423-.594,5.041,5.041,0,0,1-1.4-3.261c-.22-2.494,1.006-3.964,2.331-4.128a2.234,2.234,0,0,1,1.786.594,4.364,4.364,0,0,1,1.241,2.9C5.589,11.834,4.359,14,2.853,14ZM15.836,8c-1.81,0-3.034-2.166-2.807-4.492h0a4.177,4.177,0,0,1,1.376-2.9A2.654,2.654,0,0,1,16.386.017c1.469.164,2.829,1.634,2.586,4.128a4.835,4.835,0,0,1-1.557,3.262A2.494,2.494,0,0,1,15.836,8Zm5.217,6c-1.886,0-2.827-2.166-2.615-4.492h0a4.3,4.3,0,0,1,1.281-2.9,2.35,2.35,0,0,1,1.846-.594c1.368.164,2.635,1.634,2.409,4.128a4.976,4.976,0,0,1-1.451,3.262A2.23,2.23,0,0,1,21.053,14ZM16,24a4.865,4.865,0,0,1-2.447-.605,3.332,3.332,0,0,0-3.106,0C7.434,25.082,3.922,23.227,4,19c0-4.636,4.507-9,8-9s8,4.364,8,9C20,21.944,18.355,24,16,24Z" />
 	</svg>
 	-->
-		<!--	pluie
+	<!--	pluie
 	<svg class="abso pluie" xmlns="http://www.w3.org/2000/svg" id="Layer_pluie" data-name="Layer 1" viewBox="0 0 24 24" width="50"
 		height="50">
 		<path
 			d="M14,24a5.952,5.952,0,0,1-4.242-1.758,6.025,6.025,0,0,1,0-8.484L14,9.261l4.263,4.517a6.029,6.029,0,0,1-.021,8.464h0A5.952,5.952,0,0,1,14,24ZM5,12a4.968,4.968,0,0,1-3.535-1.465,5.022,5.022,0,0,1,0-7.07L5,.007l3.527,3.45a5.02,5.02,0,0,1,.008,7.078A4.965,4.965,0,0,1,5,12Zm15-2a3.973,3.973,0,0,1-2.828-1.172,4.017,4.017,0,0,1,0-5.656L19.982.049,22.86,3.205a4.02,4.02,0,0,1-.032,5.623h0A3.973,3.973,0,0,1,20,10Z" />
 	</svg>
 	-->
-		<script src="app.js"></script>
-	</body>
+	<script src="app.js"></script>
+</body>
+
 </html>
