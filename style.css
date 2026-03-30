@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
-
 :root {
 	--color-web-normalize: #008793;
 	--color-base-button: #0000c5;
@@ -17,7 +16,6 @@
 	--hr-color: #00000096;
 	--secret: #b8f9ff;
 }
-
 * {
 	padding: 0;
 	margin: 0;
@@ -27,35 +25,30 @@
 	transition: 0.9s;
 	scroll-behavior: smooth;
 }
-
 *:active {
 	transition: none;
 }
-
 a {
 	text-decoration: 2px underline var(--color-base-button);
 	color: var(--a-color);
 	font-size: 22px;
+	transition: none;
 }
-
 a:hover {
 	color: var(--a-color-hover);
 }
-
 h1 {
 	font-family: "Comic Relief", system-ui;
+	transition: none;
 }
-
 h1:hover {
 	cursor: pointer;
 	color: var(--text-color-hover);
 }
-
 img {
 	width: 40px;
 	height: 40px;
 }
-
 body {
 	min-height: 100vh;
 	display: flex;
@@ -65,33 +58,28 @@ body {
 	position: relative;
 	gap: 64px;
 }
-
 menu {
 	display: grid;
 	grid-template-columns: 3fr 0.1fr 3fr 1fr;
 	align-items: center;
 	justify-items: start;
 }
-
 nav {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
-
 #spe {
 	justify-content: start;
 	gap: 22px;
 }
-
 hr {
 	height: 100%;
 	width: 2px;
 	border: none;
 	background-color: var(--hr-color);
 }
-
 main {
 	display: flex;
 	flex-direction: column;
@@ -101,14 +89,12 @@ main {
 	gap: 190px;
 	padding: 48px;
 }
-
 header {
 	padding: 18px;
 	background-color: var(--color-web-normalize);
 	box-shadow: 0px 0px 20px 20px var(--color-web-normalize);
 	position: relative;
 }
-
 section {
 	display: flex;
 	flex-direction: column;
@@ -122,7 +108,6 @@ section {
 	border: none;
 	position: relative;
 }
-
 button {
 	padding: 12px 24px;
 	font-size: 16px;
@@ -132,17 +117,14 @@ button {
 	box-shadow: inset 0px 0px 20px 0px var(--box-shadow);
 	cursor: pointer;
 }
-
 button:hover {
 	border-color: var(--border-color-hover);
 	background-color: var(--color-base-button-hover);
 	box-shadow: inset 0px 0px 20px 0px var(--box-shadow-hover);
 }
-
 button:active {
 	border-color: var(--color-base-button-active);
 }
-
 form {
 	display: flex;
 	flex-direction: column;
@@ -150,24 +132,20 @@ form {
 	justify-content: start;
 	gap: 24px;
 }
-
 .intNum {
 	width: 65px;
 	padding: 5px;
 	border-radius: 8px;
 	border: 2px solid var(--border-color);
 }
-
 .intRad {
 	width: 20px;
 	height: 20px;
 }
-
 .intNum:hover {
 	border-color: var(--border-color-hover);
 	border-radius: 16px;
 }
-
 .orgonize {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -178,7 +156,6 @@ form {
 	align-items: center;
 	justify-content: center;
 }
-
 label {
 	display: flex;
 	align-items: center;
@@ -186,15 +163,12 @@ label {
 	gap: 12px;
 	font-size: 18px;
 }
-
 #changeColorWeb > form {
 	width: 100%;
 }
-
 #changeColorWeb > form > div {
 	width: 100%;
 }
-
 .orgonize1 {
 	display: grid;
 	grid-template-columns: 1.2fr 0.5fr 1.2fr 0.5fr;
@@ -204,18 +178,15 @@ label {
 	gap: 12px;
 	row-gap: 0px;
 }
-
 .intColr {
 	border: 2px solid var(--border-color);
 	border-radius: 8px;
 	padding: 0.5px;
 }
-
 .intColr:hover {
 	transition: 0.6s;
-	border-radius: 35%;
+	border-radius: 16px;
 }
-
 .justflex {
 	display: flex;
 	flex-direction: row;
@@ -223,24 +194,19 @@ label {
 	justify-content: center;
 	gap: 16px;
 }
-
 html:has(button:hover) body {
 	background-color: var(--secret);
 }
-
 html:has(button:hover) section {
 	box-shadow: 0px 0px 20px 20px var(--box-shadow);
 }
-
 .abso {
 	position: absolute;
 }
-
 .pluie {
 	bottom: -45px;
 	right: 139px;
 }
-
 .etoile1 {
 	top: -15px;
 	left: -25px;
@@ -251,36 +217,30 @@ html:has(button:hover) section {
 	right: 20px;
 	rotate: 50deg;
 }
-
 .coeur1 {
 	top: 30px;
 	left: 100px;
 	rotate: -90deg;
 }
-
 .coeur2 {
 	bottom: 20px;
 	right: 80px;
 }
-
 .coeur3 {
 	top: 120px;
 	right: 260px;
 	rotate: 90deg;
 }
-
 .patte1 {
 	top: -20px;
 	left: -20px;
 	rotate: -35deg;
 }
-
 .patte2 {
 	top: -20px;
 	right: -20px;
 	rotate: 35deg;
 }
-
 .patte3 {
 	bottom: 30px;
 	left: 25px;
@@ -291,7 +251,6 @@ html:has(button:hover) section {
 	right: 25px;
 	rotate: -20deg;
 }
-
 html:has(svg:hover) * {
 	color: var(--text-color-hover);
 }
